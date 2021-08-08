@@ -1,0 +1,22 @@
+.elements {
+  display: flex;
+  height: 40px;
+  cursor: pointer;
+  transition: 200ms all ease-in;
+  margin: 10px;
+  align-items: center;
+}
+
+.elements:hover {
+  color: white;
+}
+
+.Icon {
+  padding-right: 20px;
+}
+
+.elements > p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}

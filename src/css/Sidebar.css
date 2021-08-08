@@ -1,0 +1,29 @@
+.mySideBar {
+  object-fit: contain;
+  flex: 0.1;
+  background-color: black;
+  color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 250px;
+}
+
+.mySideBar > hr {
+  border: 1px solid grey;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.mySideBar > img {
+  object-fit: contain;
+  height: 70px;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.playlists {
+  color: white;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+}

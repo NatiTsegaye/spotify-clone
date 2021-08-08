@@ -1,0 +1,39 @@
+.myBody {
+  flex: 0.9;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  overflow-y: overlay;
+  color: white;
+}
+
+.myBody > hr {
+  border: 1px solid gray;
+}
+
+.body_icons {
+  display: flex;
+  align-items: center;
+}
+.body_green_fav:hover,
+.body_green_play:hover,
+.more_button:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}
+
+.body_green_play {
+  color: rgb(36, 167, 36);
+  margin: 20px;
+  font-size: 80px !important;
+}
+
+.body_green_fav {
+  color: rgb(36, 167, 36);
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.more_button {
+  color: gray;
+  padding: 15px;
+  margin-top: 20px;
+}

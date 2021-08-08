@@ -1,0 +1,5 @@
+.body {
+  object-fit: contain;
+  display: flex;
+  width: 100%;
+}
