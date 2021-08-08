@@ -1,5 +1,5 @@
 export const authorize = "https://accounts.spotify.com/authorize";
-const redirect = "http://localhost:3000/";
+const redirect = "http://clones-by-nati-spotify.herokuapp.com/";
 
 const clientId = "319eb0a5a66b42bfb9a6b2b19b221691";
 
